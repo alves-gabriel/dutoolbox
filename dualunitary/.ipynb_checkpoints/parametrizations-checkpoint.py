@@ -2,8 +2,8 @@ from dataclasses import dataclass
 import numpy as np
 import scipy as scp
 from scipy.linalg import expm
-import utils.pauli as pauli
-import randmatrix as rmt
+import dutoolbox.utils.pauli as pauli
+import dutoolbox.randmatrix as rmt
 
 # Data class for local onsite gates in DU
 @dataclass
